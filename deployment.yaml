@@ -13,7 +13,7 @@ spec:
         app: team-one-webapp
     spec:
       containers:
-        - image: "sinhaya/rds"
+        - image: "sinhaya/rds:28"
           name: team-one-webapp
           env:
           - name: APP_COLOR
