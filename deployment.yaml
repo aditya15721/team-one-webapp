@@ -13,7 +13,7 @@ spec:
         app: team-one-webapp
     spec:
       containers:
-        - image: "sinhaya/rds:28"
+        - image: "ghcr.io/la-cc/simple-webapp:1.0.1"
           name: team-one-webapp
           env:
           - name: APP_COLOR
