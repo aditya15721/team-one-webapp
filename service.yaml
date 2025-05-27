@@ -1,9 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: team-one-webapp-clusterip
+  name: team-one-webapp-loadbalancer
   namespace: team-one-webapp
 spec:
+  type: LoadBalancer
   selector:
     app: team-one-webapp
   ports:
